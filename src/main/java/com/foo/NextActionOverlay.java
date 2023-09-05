@@ -38,11 +38,11 @@ public class NextActionOverlay extends Overlay {
     {
         if (!plugin.isPlayerInArea()) {return null;}
         switch (plugin.getNextOtherClick()) {
-            case 1:
-                highlightWorldPoints(graphics, 1720, 3854, 5, 5); // between dark altar and blood altar
+            case 1: // between dark altar and blood altar
+                highlightWorldPoints(graphics, 1720, 3854, 5, 5);
                 break;
-            case 2:
-                highlightWorldPoints(graphics, 1751, 3873, 5, 5); // between dark altar and essence
+            case 2: // between dark altar and essence
+                highlightWorldPoints(graphics, 1751, 3873, 5, 5);
                 break;
             case 3:
                 Widget runOrb = client.getWidget(WidgetInfo.MINIMAP_TOGGLE_RUN_ORB);

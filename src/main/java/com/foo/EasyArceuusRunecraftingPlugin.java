@@ -223,10 +223,6 @@ public class EasyArceuusRunecraftingPlugin extends Plugin
 				inventoryFull = !hasSpace;
 
 				if (items.length < 28) {hasSpace = true;} // NOTE: this can happen after logging in when there's nothing in the last inventory slot.
-
-				WorldPoint l = client.getLocalPlayer().getWorldLocation();
-				log.info(String.format("pl: %s, %d", l.toString(), l.getRegionID()));
-				log.info(String.format("plinarea: %b", playerInArea));
 			}
 		}
 	}
