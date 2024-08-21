@@ -110,7 +110,7 @@ public interface EasyArceuusRunecraftingConfig extends Config
 	)
 	default int actionColor1Time()
 	{
-		return 100;
+		return 500;
 	}
 	@Range(min = 1)
 	@Units(value = Units.MILLISECONDS)
@@ -123,7 +123,7 @@ public interface EasyArceuusRunecraftingConfig extends Config
 	)
 	default int actionColor2Time()
 	{
-		return 100;
+		return 500;
 	}
 //	@Alpha
 //	@ConfigItem( // TODO implement?
