@@ -30,7 +30,7 @@ public class NextActionOverlay extends Overlay {
 
         setPosition(OverlayPosition.DYNAMIC);
         setPriority(OverlayPriority.HIGH);
-        setLayer(OverlayLayer.ALWAYS_ON_TOP);
+        setLayer(OverlayLayer.ABOVE_SCENE);
     }
 
     @Override
